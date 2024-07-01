@@ -1,13 +1,27 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
-.option-two-end  {
+
+.AbnigationScreen,
+.ErioditeScreen,
+.CandorScreen,
+.AmnityScreen,
+
+.AbnigationActionScreen,
+.ErioditeActionScreen,
+.CandorActionScreen,
+.AmnityActionScreen,
+
+.AbnigationLoseScreen,
+.AbnigationWinScreen,
+.ErioditeLoseScreen,
+.ErioditeWinScreen,
+.CandorLoseScreen,
+.CandorWinScreen,
+.AmnityLoseScreen,
+.AmnityWinScreen {
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
@@ -33,7 +47,7 @@ body {
 }
 
 /* Style the story opening container */
-.story-opening {
+.StoryOpening {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -42,14 +56,14 @@ body {
 }
 
 /* Style the story image */
-.story-opening img {
+.StoryOpening img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 /* Style the story opening message */
-.story-opening h1 {
+.StoryOpening h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -68,8 +82,6 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -77,10 +89,24 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-.option-one-screen,
-.option-two-screen,
-.option-one-end,
-.option-two-end {
+.AbnigationScreen,
+.ErioditeScreen,
+.CandorScreen,
+.AmnityScreen,
+
+.AbnigationActionScreen,
+.ErioditeActionScreen,
+.CandorActionScreen,
+.AmnityActionScreen,
+
+.AbnigationLoseScreen,
+.AbnigationWinScreen,
+.ErioditeLoseScreen,
+.ErioditeWinScreen,
+.CandorLoseScreen,
+.CandorWinScreen,
+.AmnityLoseScreen,
+.AmnityWinScreen {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -90,20 +116,48 @@ button:hover {
 }
 
 /* Style the images in the screens */
-.option-one-screen img,
-.option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+.AbnigationScreen img,
+.ErioditeScreen img,
+.CandorScreen img,
+.AmnityScreen img,
+
+.AbnigationActionScreen img,
+.ErioditeActionScreen img,
+.CandorActionScreen img,
+.AmnityActionScreen img,
+
+.AbnigationLoseScreen img,
+.AbnigationWinScreen img,
+.ErioditeLoseScreen img,
+.ErioditeWinScreen img,
+.CandorLoseScreen img,
+.CandorWinScreen img,
+.AmnityLoseScreen img,
+.AmnityWinScreen img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 /* Style the text in the screens */
-.option-one-screen h1,
-.option-two-screen h1,
-.option-one-end h1,
-.option-two-end h1 {
+.AbnigationScreen h1,
+.ErioditeScreen h1,
+.CandorScreen h1,
+.AmnityScreen h1,
+
+.AbnigationActionScreen h1,
+.ErioditeActionScreen h1,
+.CandorActionScreen h1,
+.AmnityActionScreen h1,
+
+.AbnigationLoseScreen h1,
+.AbnigationWinScreen h1,
+.ErioditeLoseScreen h1,
+.ErioditeWinScreen h1,
+.CandorLoseScreen h1,
+.CandorWinScreen h1,
+.AmnityLoseScreen h1,
+.AmnityWinScreen h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
